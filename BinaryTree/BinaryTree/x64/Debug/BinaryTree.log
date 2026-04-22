@@ -1,0 +1,32 @@
+﻿  Trees.cpp
+D:\Projects\BinaryTree\BinaryTree.h(214,41): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+D:\Projects\BinaryTree\BinaryTree.h(214,41): warning C4244:         with
+D:\Projects\BinaryTree\BinaryTree.h(214,41): warning C4244:         [
+D:\Projects\BinaryTree\BinaryTree.h(214,41): warning C4244:             T=int
+D:\Projects\BinaryTree\BinaryTree.h(214,41): warning C4244:         ]
+  (компиляция исходного файла "Trees.cpp")
+      D:\Projects\BinaryTree\BinaryTree.h(214,41):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          D:\Projects\BinaryTree\Trees.cpp(189,21):
+          выполняется компиляция ссылки на экземпляр класс шаблон функции "BinaryTree<int>"
+          D:\Projects\BinaryTree\BinaryTree.h(424,1):
+          во время компиляции функции-члена класс шаблон "bool BinaryTree<int>::Search(T) const"
+          with
+          [
+              T=int
+          ]
+              D:\Projects\BinaryTree\Trees.cpp(196,27):
+              см. первую ссылку на "BinaryTree<int>::Search" в "main"
+          D:\Projects\BinaryTree\BinaryTree.h(199,1):
+          во время компиляции функции-члена класс шаблон "void BinaryTree<int>::DeleteNode(BinaryTree<int>::Node *&,T)"
+          with
+          [
+              T=int
+          ]
+              D:\Projects\BinaryTree\BinaryTree.h(413,15):
+              см. первую ссылку на "BinaryTree<int>::DeleteNode" в "BinaryTree<int>::Delete"
+              D:\Projects\BinaryTree\Trees.cpp(197,14):
+              см. первую ссылку на "BinaryTree<int>::Delete" в "main"
+  
+D:\Projects\BinaryTree\BinaryTree.h(280,1): warning C4715: BinaryTree<int>::Search: значение возвращается не при всех путях выполнения
+  BinaryTree.vcxproj -> D:\Projects\BinaryTree\x64\Debug\BinaryTree.exe
